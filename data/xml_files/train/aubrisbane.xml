@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>aubrisbane.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/aubrisbane.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3607</width>
+		<height>2408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1689</xmin>
+			<ymin>104</ymin>
+			<xmax>2645</xmax>
+			<ymax>2408</ymax>
+		</bndbox>
+	</object>
+</annotation>

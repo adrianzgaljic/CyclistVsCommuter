@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>paris-cycling.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/paris-cycling.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1215</width>
+		<height>796</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>360</xmin>
+			<ymin>133</ymin>
+			<xmax>791</xmax>
+			<ymax>671</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>16105245023_16f1d0ce59_b.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/16105245023_16f1d0ce59_b.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>686</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>176</xmin>
+			<ymin>38</ymin>
+			<xmax>471</xmax>
+			<ymax>649</ymax>
+		</bndbox>
+	</object>
+</annotation>

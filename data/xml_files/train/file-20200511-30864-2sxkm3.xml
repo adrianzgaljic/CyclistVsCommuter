@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>file-20200511-30864-2sxkm3.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/file-20200511-30864-2sxkm3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4823</width>
+		<height>3215</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2514</xmin>
+			<ymin>1217</ymin>
+			<xmax>3677</xmax>
+			<ymax>3080</ymax>
+		</bndbox>
+	</object>
+</annotation>

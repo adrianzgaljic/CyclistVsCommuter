@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>bicycle-5993064__340.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/bicycle-5993064__340.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>516</width>
+		<height>340</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>306</xmin>
+			<ymin>128</ymin>
+			<xmax>352</xmax>
+			<ymax>201</ymax>
+		</bndbox>
+	</object>
+</annotation>

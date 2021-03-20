@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>street-scene-amsterdam-moving-tram-260nw-1785412220.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/street-scene-amsterdam-moving-tram-260nw-1785412220.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>448</width>
+		<height>280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>8</xmin>
+			<ymin>107</ymin>
+			<xmax>102</xmax>
+			<ymax>224</ymax>
+		</bndbox>
+	</object>
+</annotation>

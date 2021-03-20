@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Athleticwomancyclist-Carousel.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/Athleticwomancyclist-Carousel.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>351</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cyclist</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>268</xmin>
+			<ymin>44</ymin>
+			<xmax>571</xmax>
+			<ymax>332</ymax>
+		</bndbox>
+	</object>
+</annotation>

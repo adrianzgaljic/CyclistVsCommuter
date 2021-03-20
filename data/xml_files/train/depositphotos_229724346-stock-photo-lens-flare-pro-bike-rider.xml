@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>depositphotos_229724346-stock-photo-lens-flare-pro-bike-rider.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/depositphotos_229724346-stock-photo-lens-flare-pro-bike-rider.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cyclist</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>830</xmin>
+			<ymin>341</ymin>
+			<xmax>1097</xmax>
+			<ymax>832</ymax>
+		</bndbox>
+	</object>
+</annotation>

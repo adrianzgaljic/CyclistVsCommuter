@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>amsterdam-slowest-cyclists640.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/amsterdam-slowest-cyclists640.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>344</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>415</xmin>
+			<ymin>133</ymin>
+			<xmax>475</xmax>
+			<ymax>298</ymax>
+		</bndbox>
+	</object>
+</annotation>

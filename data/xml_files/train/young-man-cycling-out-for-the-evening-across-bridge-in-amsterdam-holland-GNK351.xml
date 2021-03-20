@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>young-man-cycling-out-for-the-evening-across-bridge-in-amsterdam-holland-GNK351.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/young-man-cycling-out-for-the-evening-across-bridge-in-amsterdam-holland-GNK351.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>956</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>453</xmin>
+			<ymin>229</ymin>
+			<xmax>969</xmax>
+			<ymax>838</ymax>
+		</bndbox>
+	</object>
+</annotation>

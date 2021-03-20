@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>pexels-photo-5851037.jpeg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/pexels-photo-5851037.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2640</width>
+		<height>3960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cyclist</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>889</xmin>
+			<ymin>563</ymin>
+			<xmax>2012</xmax>
+			<ymax>3557</ymax>
+		</bndbox>
+	</object>
+</annotation>

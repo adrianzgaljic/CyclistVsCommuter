@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>bicycle-race-438855__480.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/bicycle-race-438855__480.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cyclist</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>46</ymin>
+			<xmax>342</xmax>
+			<ymax>413</ymax>
+		</bndbox>
+	</object>
+</annotation>

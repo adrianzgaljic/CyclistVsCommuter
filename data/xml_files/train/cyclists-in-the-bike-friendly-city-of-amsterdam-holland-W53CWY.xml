@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>cyclists-in-the-bike-friendly-city-of-amsterdam-holland-W53CWY.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/cyclists-in-the-bike-friendly-city-of-amsterdam-holland-W53CWY.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>956</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>970</xmin>
+			<ymin>258</ymin>
+			<xmax>1159</xmax>
+			<ymax>578</ymax>
+		</bndbox>
+	</object>
+</annotation>

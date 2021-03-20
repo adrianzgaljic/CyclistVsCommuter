@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>recovery-for-cyclists_hero.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/recovery-for-cyclists_hero.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2880</width>
+		<height>1620</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cyclist</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>890</xmin>
+			<ymin>10</ymin>
+			<xmax>2390</xmax>
+			<ymax>1620</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>cyclist-picture-profimedia-0443004591-CVR.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/cyclist-picture-profimedia-0443004591-CVR.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1366</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cyclist</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>546</xmin>
+			<ymin>20</ymin>
+			<xmax>857</xmax>
+			<ymax>596</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>bicycle-riding-tile1-safety.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/bicycle-riding-tile1-safety.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2000</width>
+		<height>1331</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>874</xmin>
+			<ymin>230</ymin>
+			<xmax>1289</xmax>
+			<ymax>1331</ymax>
+		</bndbox>
+	</object>
+</annotation>

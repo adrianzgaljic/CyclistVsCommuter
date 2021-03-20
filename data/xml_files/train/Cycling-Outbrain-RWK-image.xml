@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Cycling-Outbrain-RWK-image.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/Cycling-Outbrain-RWK-image.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>660</width>
+		<height>348</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>266</xmin>
+			<ymin>42</ymin>
+			<xmax>418</xmax>
+			<ymax>348</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>5.png</filename>
+	<path>/Users/adrianzgaljic/CyclistVsCommuter/data/images/5.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>214</xmin>
+			<ymin>65</ymin>
+			<xmax>398</xmax>
+			<ymax>267</ymax>
+		</bndbox>
+	</object>
+</annotation>

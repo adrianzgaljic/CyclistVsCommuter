@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>the-bicycle-rider-leon-spain-mary-machare.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/the-bicycle-rider-leon-spain-mary-machare.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>597</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>232</xmin>
+			<ymin>36</ymin>
+			<xmax>690</xmax>
+			<ymax>507</ymax>
+		</bndbox>
+	</object>
+</annotation>

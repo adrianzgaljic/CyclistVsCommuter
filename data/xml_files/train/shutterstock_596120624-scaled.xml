@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>shutterstock_596120624-scaled.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/shutterstock_596120624-scaled.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2560</width>
+		<height>1707</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>881</xmin>
+			<ymin>845</ymin>
+			<xmax>1690</xmax>
+			<ymax>1613</ymax>
+		</bndbox>
+	</object>
+</annotation>

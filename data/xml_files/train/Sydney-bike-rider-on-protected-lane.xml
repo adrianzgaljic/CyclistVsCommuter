@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Sydney-bike-rider-on-protected-lane.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/Sydney-bike-rider-on-protected-lane.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>654</width>
+		<height>260</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>313</xmin>
+			<ymin>6</ymin>
+			<xmax>526</xmax>
+			<ymax>229</ymax>
+		</bndbox>
+	</object>
+</annotation>

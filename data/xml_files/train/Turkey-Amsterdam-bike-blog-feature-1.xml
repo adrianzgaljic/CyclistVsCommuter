@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Turkey-Amsterdam-bike-blog-feature-1.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/Turkey-Amsterdam-bike-blog-feature-1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>690</width>
+		<height>380</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>242</xmin>
+			<ymin>114</ymin>
+			<xmax>393</xmax>
+			<ymax>380</ymax>
+		</bndbox>
+	</object>
+</annotation>

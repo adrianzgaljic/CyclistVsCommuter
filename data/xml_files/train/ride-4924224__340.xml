@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>ride-4924224__340.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/ride-4924224__340.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>227</width>
+		<height>340</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cyclist</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>110</ymin>
+			<xmax>214</xmax>
+			<ymax>293</ymax>
+		</bndbox>
+	</object>
+</annotation>

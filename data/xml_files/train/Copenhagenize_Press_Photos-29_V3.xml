@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Copenhagenize_Press_Photos-29_V3.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/Copenhagenize_Press_Photos-29_V3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1800</width>
+		<height>1081</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>466</xmin>
+			<ymin>168</ymin>
+			<xmax>773</xmax>
+			<ymax>807</ymax>
+		</bndbox>
+	</object>
+</annotation>

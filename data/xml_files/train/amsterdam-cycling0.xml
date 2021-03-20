@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>amsterdam-cycling0.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/amsterdam-cycling0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2500</width>
+		<height>1875</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1143</xmin>
+			<ymin>845</ymin>
+			<xmax>1435</xmax>
+			<ymax>1628</ymax>
+		</bndbox>
+	</object>
+</annotation>

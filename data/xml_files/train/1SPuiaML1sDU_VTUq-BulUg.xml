@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>1SPuiaML1sDU_VTUq-BulUg.jpeg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/1SPuiaML1sDU_VTUq-BulUg.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2560</width>
+		<height>1707</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1095</xmin>
+			<ymin>645</ymin>
+			<xmax>1435</xmax>
+			<ymax>1002</ymax>
+		</bndbox>
+	</object>
+</annotation>

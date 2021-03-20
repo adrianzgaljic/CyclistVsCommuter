@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Bikeable-FeatureArt-522218286.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/Bikeable-FeatureArt-522218286.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>670</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>521</xmin>
+			<ymin>292</ymin>
+			<xmax>769</xmax>
+			<ymax>526</ymax>
+		</bndbox>
+	</object>
+</annotation>

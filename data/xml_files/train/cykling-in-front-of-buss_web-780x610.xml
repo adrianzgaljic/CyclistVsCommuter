@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>cykling-in-front-of-buss_web-780x610.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/cykling-in-front-of-buss_web-780x610.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>780</width>
+		<height>610</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>223</xmin>
+			<ymin>75</ymin>
+			<xmax>411</xmax>
+			<ymax>610</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>stunt-2050843__480.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/stunt-2050843__480.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>480</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>316</xmin>
+			<ymin>54</ymin>
+			<xmax>633</xmax>
+			<ymax>472</ymax>
+		</bndbox>
+	</object>
+</annotation>

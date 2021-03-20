@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>biking-601x406.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/biking-601x406.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>601</width>
+		<height>406</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cyclist</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>169</xmin>
+			<ymin>8</ymin>
+			<xmax>504</xmax>
+			<ymax>377</ymax>
+		</bndbox>
+	</object>
+</annotation>

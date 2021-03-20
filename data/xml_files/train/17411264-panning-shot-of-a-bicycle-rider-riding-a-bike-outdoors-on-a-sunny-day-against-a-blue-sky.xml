@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>17411264-panning-shot-of-a-bicycle-rider-riding-a-bike-outdoors-on-a-sunny-day-against-a-blue-sky.jpg</filename>
+	<path>/Users/adrianzgaljic/Downloads/zips/images/17411264-panning-shot-of-a-bicycle-rider-riding-a-bike-outdoors-on-a-sunny-day-against-a-blue-sky.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>866</width>
+		<height>1300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>commuter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>183</xmin>
+			<ymin>543</ymin>
+			<xmax>634</xmax>
+			<ymax>1229</ymax>
+		</bndbox>
+	</object>
+</annotation>
