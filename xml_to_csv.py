@@ -36,7 +36,7 @@ def xml_to_csv(path):
               member[0].text = "commuter"
             classes_names.append(member[0].text)
             value = (
-                root.find("filename").text,
+                root.find("filename").text.replace("jpg", "jpeg"),
                 int(root.find("size")[0].text),
                 int(root.find("size")[1].text),
                 member[0].text,
