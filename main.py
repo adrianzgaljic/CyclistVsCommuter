@@ -12,6 +12,7 @@ from io import StringIO
 from matplotlib import pyplot as plt
 from PIL import Image
 import glob
+import argparse
 
 # This is needed since the notebook is stored in the object_detection folder.
 sys.path.append("..")
@@ -24,21 +25,6 @@ from object_detection.utils import ops as utils_ops
 from object_detection.utils import label_map_util
 
 from object_detection.utils import visualization_utils as vis_util
-
-detection_graph = tf.Graph()
-with detection_graph.as_default():
-    od_graph_def = tf.GraphDef()
-    with tf.gfile.GFile("/Users/adrianzgaljic/Downloads/saved_model (2).pb", 'rb') as fid:
-        serialized_graph = fid.read()
-        od_graph_def.ParseFromString(serialized_graph)
-        tf.import_graph_def(od_graph_def, name='')
-
-
-label_map = label_map_util.load_labelmap("/Users/adrianzgaljic/Downloads/label_map (3).pbtxt")
-categories = label_map_util.convert_label_map_to_categories(
-    label_map, max_num_classes=2, use_display_name=True)
-category_index = label_map_util.create_category_index(categories)
-
 
 def load_image_into_numpy_array(image):
     (im_width, im_height) = image.size
@@ -112,8 +98,29 @@ TEST_IMAGE_PATHS = glob.glob(os.path.join("/Users/adrianzgaljic/CyclistVsCommute
 # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
 #image_np_expanded = np.expand_dims(image_np, axis=0)
 # Actual detection.
-for i in range(1, 18):
-    image_np = cv2.imread("/Users/adrianzgaljic/Desktop/"+str(i)+".jpeg", 1)
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--model', metavar='model', type=str)
+    parser.add_argument('--label_map', metavar='label_map', type=str)
+    parser.add_argument('--input_image', metavar='input_image', type=str)
+    args = parser.parse_args()
+
+    label_map = label_map_util.load_labelmap(args.label_map)
+    categories = label_map_util.convert_label_map_to_categories(
+        label_map, max_num_classes=2, use_display_name=True)
+    category_index = label_map_util.create_category_index(categories)
+
+    detection_graph = tf.Graph()
+    print("model ", args.model)
+    with detection_graph.as_default():
+        od_graph_def = tf.compat.v1.GraphDef()
+        with tf.compat.v2.io.gfile.GFile(args.model, 'rb') as fid:
+            serialized_graph = fid.read()
+            od_graph_def.ParseFromString(serialized_graph)
+            tf.import_graph_def(od_graph_def, name='')
+
+
+    image_np = cv2.imread(args.input_image, 1)
 
     output_dict = run_inference_for_single_image(image_np, detection_graph)
     boxes = output_dict['detection_boxes']
@@ -131,6 +138,9 @@ for i in range(1, 18):
         use_normalized_coordinates=True,
         min_score_thresh=0.8,
         line_thickness=5)
-    cv2.imwrite("/Users/adrianzgaljic/Desktop/det_ " + str(i) + ".jpg", image_np)
+    cv2.imwrite("/Users/adrianzgaljic/Desktop/detection.jpg", image_np)
     #cv2.imshow("img", image_np)
     #cv2.waitKey(0)
+
+if __name__ == "__main__":
+    main()
