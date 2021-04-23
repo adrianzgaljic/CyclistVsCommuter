@@ -3,7 +3,6 @@ import tensorflow as tf
 import cv2
 from PIL import Image
 from object_detection.utils import visualization_utils as viz_utils
-import argparse
 from object_detection.utils import label_map_util
 
 
@@ -13,16 +12,11 @@ def load_image_into_numpy_array(image_path):
     return np.array(img)
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--model', metavar='model', type=str)
-    parser.add_argument('--label_map', metavar='label_map', type=str)
-    parser.add_argument('--input_image', metavar='input_image', type=str)
-    args = parser.parse_args()
+def detect(model, label_map, image):
+    detect_fn = tf.saved_model.load(model)
 
-    detect_fn = tf.saved_model.load(args.model)
-    category_index = label_map_util.create_category_index_from_labelmap(args.label_map, use_display_name=True)
-    image_np = load_image_into_numpy_array(args.input_image)
+    category_index = label_map_util.create_category_index_from_labelmap(label_map, use_display_name=True)
+    image_np = load_image_into_numpy_array(image)
 
     input_tensor = tf.convert_to_tensor(image_np)
     input_tensor = input_tensor[tf.newaxis, ...]
@@ -51,7 +45,3 @@ def main():
         min_score_thresh=.40,
         agnostic_mode=False)
     return detections, image_np_with_detections
-
-
-if __name__ == "__main__":
-    main()
